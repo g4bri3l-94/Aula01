@@ -1,0 +1,93 @@
+01) Printar nome:
+
+variavel1 = "Meu nome é"
+variavel2 = "Gabriel"
+variavel3 = "e esse é meu primeiro print em tela!"
+print(variavel1, variavel2, variavel3)
+
+Cáuculo 10*50:
+Ex01: 01
+variavel1 = 10
+variavel2 = 50
+print(variavel1 * variavel2)
+
+Ex02:
+variavel = 10*50
+print(variavel)
+
+02) Cáuculo média
+Ex01: 
+variavel01 = 8
+variavel02 = 9
+variavel03 = 10
+variavel04 = 3
+print((variavel01 + variavel02 + variavel03) / variavel04)
+
+Ex02:
+print((8+9+10)/3)
+
+Ex03:
+soma = 8 + 9 + 10
+media = soma / 3
+print(media)
+
+
+03) Peça dois números inteiros e apresente a soma dos dois:
+Ex01:
+numero01 = int(input("digite um número "))
+numero02 = int(input("digite um número "))
+print(numero01 + numero02)
+
+Ex02:
+numero01 = int(input("Digite um número: "))
+numero02 = int(input("Digite um número: "))
+soma = numero01 + numero02
+print(soma)
+
+04) Mostrar média de 4 notas:
+Ex01:
+numero01 = int(input("Digite um número: "))
+numero02 = int(input("Digite um número: "))
+numero03 = int(input("Digite um número: "))
+numero04 = int(input("Digite um número: "))
+soma = numero01 + numero02 + numero03 + numero04
+media = soma / 4
+print(media)
+
+Ex02:
+numero01 = int(input("Digite um número: "))
+numero02 = int(input("Digite um número: "))
+numero03 = int(input("Digite um número: "))
+numero04 = int(input("Digite um número: "))
+media = (numero01 + numero02 + numero03 + numero04) / 4
+print(media)
+
+Ex03:
+numero01 = float(input("Informe a nota 1: "))
+numero02 = float(input("Informe a nota 2: "))
+numero03 = float(input("Informe a nota 3: "))
+numero04 = float(input("Informe a nota 4: "))
+media = (numero01 + numero02 + numero03 + numero04) / 4
+print("A sua média é", media)
+
+05) Crie uma calculadora que caucule dois numeros:
+Ex01:
+numero01 = float(input("Insira um número: "))
+numero02 = float(input("Insira um número: "))
+soma = numero01 + numero02
+subtracao = numero01 - numero02
+multiplicacao = numero01 * numero02
+divisao = numero01 / numero02
+print("A soma dos dois números é:", soma )
+print("A subtracao dos dois números é:", subtracao )
+print("A multiplicacao dos dois números é:", multiplicacao )
+print("A divisao dos dois números é:", divisao )
+
+06) Utilizando o sep e end.
+Ex01:
+parte01 = 677
+parte02 = 116
+parte03 = 960
+parte04 = 00
+print(parte01, parte02, parte03, sep=".", end="-")
+print(parte04)
