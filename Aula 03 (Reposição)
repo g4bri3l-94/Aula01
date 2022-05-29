@@ -1,0 +1,24 @@
+Atividade 01:
+
+numero=5
+while True:
+    palpite=int(input('Digite seu palpite: '))
+    if palpite > numero:
+        print('Valor maior que o número.')
+    elif palpite < numero:
+        print('Valor menor que o número.')
+    else:
+        print('Parabéns, você acertou')
+        break
+        
+
+Atividade 02:
+
+contador=1
+totalNotas=0
+while contador <= 4:
+    nota=float(input(f'Digite o valor da nota {contador}: '))
+    totalNotas=totalNotas+nota
+    media=totalNotas/4
+    contador += 1
+print(f'A média é: {media}')
